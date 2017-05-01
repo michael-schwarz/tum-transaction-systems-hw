@@ -10,6 +10,8 @@ import java.util.*;
  */
 public class Main {
     public static void main(String[] args){
+        System.out.println("Enter history in format specified on sheet:");
+        
         List<Operation> history = readHistory();
 
         DirectedGraph<Integer,DefaultEdge> graph = new DefaultDirectedGraph<>(DefaultEdge.class);
